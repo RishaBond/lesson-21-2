@@ -32,27 +32,33 @@
             <p>Contact: contact@zest.com</p>
         </div>
     </section>
-    <div class="parallax-window">
-        <section class="section section-z">
-            <div class="parallax-slider">
+    <div class="parallax-window" data-parallax="scroll">
+        <div class="parallax-slider">
+            <section class="section section-z">
                 <img class="center-img" src="img/z-img.png" alt="">
-            </div>
-        </section>
-        <section class="section section-e">
-            <div class="parallax-slider">
+            </section>
+        </div>
+    </div>
+    <div class="parallax-window" data-parallax="scroll">
+        <div class="parallax-slider">
+            <section class="section section-e">
                 <img class="center-img" src="img/e-img.png" alt="">
-            </div>
-        </section>
-        <section class="section section-s">
-            <div class="parallax-slider">
+            </section>
+        </div>
+    </div>
+    <div class="parallax-window" data-parallax="scroll">
+        <div class="parallax-slider">
+            <section class="section section-s">
                 <img class="center-img" src="img/s-img.png" alt="">
-            </div>
-        </section>
-        <section class="section section-t">
-            <div class="parallax-slider">
+            </section>
+        </div>
+    </div>
+    <div class="parallax-window" data-parallax="scroll">
+        <div class="parallax-slider">
+            <section class="section section-t">
                 <img class="center-img" src="img/t-img.png" alt="">
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
 
 	<link rel="stylesheet" href="css/main.min.css">
@@ -60,8 +66,8 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script>
         $('.parallax-window').parallax({
-            naturalWidth: 600,
-            naturalHeight: 400
+            naturalWidth: 400,
+            naturalHeight: 200
         });
     </script>
 </body>
