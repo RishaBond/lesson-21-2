@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <section class="section-header">
+        <div class="logo">
+            <img class="logo__img" src="img/logo.png" alt="logo">
+        </div>
+        <ul class="nav">
+            <li class="nav__item">Works</li>
+            <li class="nav__item">About</li>
+            <li class="nav__item"><img src="img/menu.png" alt="=">Menu</li>
+        </ul>
+    </section>
+    <section class="section-footer">
+        <div>
+            <p>Copyright &copy; 2016 All rights reserved</p>
+        </div>
+        <div>
+            <span>Preview/Next</span>
+            <p>Contact: contact@zest.com</p>
+        </div>
+    </section>
+    <div class="parallax-window">
+        <section class="section section-z">
+            <div class="parallax-slider">
+                <img class="center-img" src="img/z-img.png" alt="">
+            </div>
+        </section>
+        <section class="section section-e">
+            <div class="parallax-slider">
+                <img class="center-img" src="img/e-img.png" alt="">
+            </div>
+        </section>
+        <section class="section section-s">
+            <div class="parallax-slider">
+                <img class="center-img" src="img/s-img.png" alt="">
+            </div>
+        </section>
+        <section class="section section-t">
+            <div class="parallax-slider">
+                <img class="center-img" src="img/t-img.png" alt="">
+            </div>
+        </section>
+    </div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script>
+        $('.parallax-window').parallax({
+            naturalWidth: 600,
+            naturalHeight: 400
+        });
+    </script>
+</body>
+</html>
